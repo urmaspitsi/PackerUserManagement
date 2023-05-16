@@ -1,0 +1,4 @@
+.gcloudignore
+*.pyc
+__pycache__/
+env_variables.yaml
