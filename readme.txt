@@ -1,3 +1,11 @@
+User management for PackerSolver: web API using FastAPI.
+Backends either SQLite or PostgreSQL.
+Implements following workflows:
+- new user creation, with authentication
+- forgot password / reset password
+- login with username/password: jwt authentication
+
+
 to run locally use command:
   uvicorn main:app --reload
 
